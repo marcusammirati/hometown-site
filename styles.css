@@ -1,0 +1,198 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center; 
+}
+
+.header-img {
+    width: 720px;
+    height: 343px;
+}
+
+.subimage {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    vertical-align: top;
+    
+}
+
+.middle_section {
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    justify-content: space-around;
+    
+}
+
+.activity-title {
+    
+    margin-top: 0px;
+    padding-top: 39px;
+    font-size: 30px;
+    font-family: cinema;
+}
+
+
+.activities {
+    
+    background-color: #457B9D;
+    height: 378px; 
+}
+
+h5 {
+    font-size: 16px;
+    width: 200px;
+    horizontal-align: top;
+}
+
+.text1 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    font-style: italic;
+
+     
+    
+}
+
+.text2 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    font-style: italic;
+}
+
+
+.text3 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    font-style: italic;
+}
+
+
+p {
+    
+    display: block;
+    text-align: center;
+    
+}
+
+.hero {
+    background-image: url("https://media.giphy.com/media/gdUVz1Z6jpMk0/giphy.gif");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0px;
+    height: 343px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@font-face {
+    src: url("trashcinema-bb.zip");
+    font-family: cinema;
+ 
+}
+
+
+#header {
+    background: #457B9D;
+    font-size: 40px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    text-shadow: 0 0 1px black;
+    font-family: cinema;
+    
+   
+}
+
+
+#subhead {
+    
+    background: #E63946;
+    font-size: 20px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    text-shadow: 0 0 0.5px black;
+    font-family: cinema;
+     
+    
+}
+
+
+
+.guide_card {
+    
+
+  padding: 50px 160px;
+  width: 505px;
+  height: 394px;
+  margin: auto;
+  background: url("images/background_woodstock.jpeg");
+  background-size: cover;
+  background-position: center;
+      
+}
+
+
+.card_words {
+    background: #A8DADC;
+    border: 5px solid black; 
+    border-bottom: 8px solid blue;
+    display: flex;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.card_words:hover {
+    background: #457B9D;
+    cursor: -webkit-grab;
+    border: 5px solid black; 
+    border-bottom: 8px solid blue;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: right;
+    
+    
+    
+       
+}
+
+
+.headshot {
+    height: 250px;
+    width: 180px;
+    margin: auto; 
+ 
+}
+
+.quote {
+    font-style: italic;
+    width: 200px
+      
+}
+
+.threelines { 
+    margin: auto; 
+    
+    
+}
